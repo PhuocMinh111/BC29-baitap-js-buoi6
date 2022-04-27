@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bài tập js buổi 6</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    
+    <div class="container ">
+      <ul class="nav mt-5 mx-auto row justify-content-center nav-tabs"  id="myTab" role="tablist">
+        <li class="nav-item">
+          <a  class="nav-link " data-toggle="tab" aria-controls="profile" aria-selected="" href="#menu1">bài tập buổi 6</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" aria-controls="profile" aria-selected="false"href="#menu2">bài tập làm thêm</a>
+        </li>
+      </ul>
+      </div>
+      
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active show  fade" id="menu1">
+          <div class="container">
+            <div class="row align-item-start">
+      <div class="col-md-6 mt-3">
+        <div class="card text-left">
+          <div class="card-body">
+            <button type="button" name="" id="btnTinh" class="btn btn-primary" btn-lg btn-block">Tìm số nguyên nhỏ nhất</button>
+            <p id="txtNumber" class=" mt-3 card-text"></p>
+          </div>
+        </div>
+          <div class="form-group">
+            <label for=""></label>
+            <input type="text" class="form-control" name="" id="num-1" aria-describedby="helpId" placeholder="nhập số thứ 1">
+            <input type="text" class="form-control mt-2" name="" id="num-2" aria-describedby="helpId" placeholder="nhập số thứ 2">
+            <button type="button" name="" id="btnTinh2" class="btn mt-3 btn-danger" btn-lg btn-block">Tính Tổng</button>
+            <h4 id="ketQua2" class="bg-danger text-light p-2 mt-2" style="opacity: .4;min-height: 50px;"></h4>
+          </div>
+        </div>
+        <div class="col-md-6 mt-3">
+          <div class="form-group">
+            <label for=""></label>
+            <input type="text" name="" id="bai3-num" class="form-control" placeholder="" aria-describedby="helpId">
+            <h4 class="border mt-2" id="bai3-ketqua">
+            </h4>
+            <button type="button" name="" id="btnTinh3" class="btn btn-primary" btn-lg btn-block">Tính giai thừa</button>
+          </div>
+          <div id="taodiv" class="p-3 mt-2 border">
+          </div>
+          <button type="button" name="" id="btnTaoDiv" class="btn mt-2 btn-success" btn-lg btn-block">Tạo Div</button>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="tab-pane container fade" id="menu2">
+        <div class="container">
+          <div class="form-group">
+            <label for="">Bài 5</label>
+            <input type="text" name="" id="bai5-num" class="form-control" placeholder="" aria-describedby="helpId">
+            <button type="button" name="" id="bai5-ketqua" class="btn btn-success d-block mt-2" btn-lg btn-block"></button>
+            <button type="button" name="" id="btnBai5" class="btn mt-2 btn-info" btn-lg btn-block">In số nguyên tố</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./buoi6.js"></script>
+  </body>
+</html>
